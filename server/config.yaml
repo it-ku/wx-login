@@ -1,0 +1,19 @@
+server:
+  port: 8080
+
+wechat:
+  app_id: "your_app_id"
+  app_secret: "your_app_secret"
+  token: "your_token"
+  encoding_aes_key: "your_encoding_aes_key"
+
+jwt:
+  secret: "your_jwt_secret_change_this"
+  expire_hours: 24
+
+database:
+  dsn: "wx_login.db"
+
+wechat_qrcode: "static/qrcode.jpg"
+service_qrcode: "static/service.jpg"
+service_qrcode_media_id: ""
