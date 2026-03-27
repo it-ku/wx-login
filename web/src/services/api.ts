@@ -1,5 +1,4 @@
-
-const BASE_URL = '/api';
+const BASE_URL = '/proxy/api';
 
 export interface UserInfo {
   open_id: string;
